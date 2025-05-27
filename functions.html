@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <h1 id="BeharieGirls" onclick="">CHELIYAH AND CHELANAH</h1>
+        <p id="additions"></p>
+
+        <script>
+            document.getElementById("additions").innerHTML= addNumbers(5, 7);
+
+            function changetext (){
+                if(document.getElementById("BeharieGirls").innerHTML=='CHELIYAH AND CHELANAH')
+                (document.getElementById("BeharieGirls").innerHTML='CHE&CHE');
+                else{document.getElementById("BeharieGirls").innerHTML='CHELIYAH AND CHELANAH'}
+
+            }
+
+            function addNumbers(num1, num2){
+                 return num1 + num2;
+            }
+            
+        </script>
+    </body>
+</html>
